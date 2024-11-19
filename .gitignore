@@ -38,3 +38,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Prisma
+/node_modules/
+/prisma/*.db            # Local SQLite databases (if using SQLite)
+/prisma/migrations/**   # Prisma migrations (optional, see note below)
+.env                    # Environment variables, including DATABASE_URL
+.env.local              # Local environment overrides
+.env.development        # Environment variables for development
+.env.production         # Environment variables for production
