@@ -1,5 +1,3 @@
-import { redirect } from 'next/navigation';
-
 export default async function HomePage() {
   return (
     <form action="/api/encrypt" method="post">

@@ -1,5 +1,4 @@
 import { PrismaClient } from '@prisma/client';
-import { createDecipheriv, pbkdf2Sync } from 'crypto';
 
 const prisma = new PrismaClient();
 
